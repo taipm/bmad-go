@@ -31,7 +31,6 @@ type Workflow struct {
 type WorkflowStep struct {
 	Name        string
 	Description string
-	Agent       *Agent
 	Action      func(ctx context.Context) error
 }
 
